@@ -1,4 +1,0 @@
----
-# file: tasks/main.yml
-
-- include: act_group-by.yml tags=act_group-by
