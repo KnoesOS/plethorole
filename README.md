@@ -46,10 +46,11 @@ $ git clone git@github.com:KnoesOS/plethorole.git
   roles:
     - plethorole/common/act_group-by
 
-# Simply install OpenJDK-7 w/JAVA_HOME
+# Simple install example
 - hosts: rig_acme-web:&Ubuntu-12.04  # Ubuntu 12.04
   sudo: True
   roles:
+    - plethorole/ubuntu-12.04/meta_server-base
     - plethorole/ubuntu-12.04/sw_openjdk-7
 ```
 
