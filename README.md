@@ -18,18 +18,25 @@ Unstable
 
 Tutorial
 --------
+
 1. Install Ansible >=1.4.
+
 2. Create a Roles directory
+
 ```
 $ mkdir /home/doej/Roles
 ```
+
 3. Update ansible.cfg's 'roles_path' (e.g. '/home/doej/Roles')
 4. Clone plethorole
+
 ```
 $ cd /home/doej/Roles
 $ git clone git@github.com:KnoesOS/plethorole.git
 ```
+
 5. Use plethorole in your custom Ansible Playbooks.
+
 ```
 ---
 # file: rig_acme-web.yml
@@ -46,9 +53,12 @@ $ git clone git@github.com:KnoesOS/plethorole.git
   roles:
     - plethorole/ubuntu-12.04/sw_openjdk-7
 ```
+
 6. Use git pull to stay in sync with plethorole-master.
+
 ```
 $ cd /home/doej/Roles/plethorole
 $ git pull
 ```
+
 7. Send pull requests and open issues as desired.
