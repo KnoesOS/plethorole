@@ -1,7 +1,7 @@
 plethorole
 ==========
 
-A stockpile of Ansible Roles for use in your Ansible Playbooks...
+A stockpile of Ansible Roles for use in your Ansible Playbooks.
 
 
 Version
