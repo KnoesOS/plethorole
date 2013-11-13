@@ -20,7 +20,6 @@ Tutorial
 --------
 
 * Install Ansible >=1.4.
-
 * Create a Roles directory
 
 ```
@@ -61,4 +60,4 @@ $ cd /home/doej/Roles/plethorole
 $ git pull
 ```
 
-* Send pull requests and open issues as desired.
+* Send pull requests, make suggestions and open issues frequently.
