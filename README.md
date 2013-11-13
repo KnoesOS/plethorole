@@ -66,11 +66,14 @@ $ git pull
 Glossary
 ------
 ```
-act = an action
-distro = a role that uses package(s) from distro
-distro-src =  a role that uses src package(s) from distro
+act = an action role
+common = applies to more than one context (e.g. distro, version, configuration)
+dev = a software role that uses packages from the developer
+dev-src = a software role that uses source from the developer
+distro = a software role that uses package(s) from the distro
+distro-src =  a software role that uses source package(s) from the distro
 meta = a role that calls other roles
-ppa = a role that uses package(s) from personal package archive(s) (PPA)
+ppa = a software role that uses package(s) from personal package archive(s) (PPA)
 rig = a special meta role that calls other roles to provision an entire machine
-sw = a software package or suite
+sw = a role for a software package or software suite
 ```
