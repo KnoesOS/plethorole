@@ -23,7 +23,7 @@ Tutorial
 3. Update ansible.cfg's 'roles_path' (e.g. '/home/doej/Roles')
 4. Use plethorole in your custom Ansible PLaybook.
 
-'''
+```
 ---
 # file: rig_acme-web.yml
 
@@ -38,4 +38,4 @@ Tutorial
   sudo: True
   roles:
     - plethorole/ubuntu-12.04/sw_openjdk-7
-'''
+```
