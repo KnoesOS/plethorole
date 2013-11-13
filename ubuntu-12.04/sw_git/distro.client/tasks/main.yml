@@ -1,0 +1,4 @@
+---
+# file: tasks/main.yml
+
+- include: sw_git-client.yml tags=sw_git-client

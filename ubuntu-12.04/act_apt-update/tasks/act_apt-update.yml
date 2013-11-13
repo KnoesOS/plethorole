@@ -1,0 +1,6 @@
+---
+# file: tasks/act_apt-update.yml
+
+# Only run "update_cache=yes" if the last one is more than more than 3600 seconds ago
+- name: Update package cache if it is more than 3,600 seconds stale
+  apt: update_cache=yes cache_valid_time=3600
