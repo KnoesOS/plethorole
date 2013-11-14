@@ -6,7 +6,7 @@ A stockpile of Ansible Roles for use in your Ansible Playbooks.
 
 Version
 -------
-0.1.0
+0.1.1
 
 The Plethorole Project uses Semantic Versioning.
 
@@ -75,6 +75,5 @@ distro = a software role that uses package(s) from the distro
 distro-src =  a software role that uses source package(s) from the distro
 meta = a role that calls other roles
 ppa = a software role that uses package(s) from personal package archive(s) (PPA)
-rig = a special meta role that calls other roles to provision an entire machine
 sw = a role for a software package or software suite
 ```
