@@ -3,8 +3,6 @@
 
 - name: Purge all blacklisted packages
   apt: pkg={{ item }} state=absent purge=yes
-  with_items:
-    - iptables-persistent
-    - screen
+  with_items: apt_purge_list
   tags:
     - packages

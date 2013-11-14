@@ -1,0 +1,4 @@
+---
+# file: tasks/main.yml
+
+- include: sw_curl.yml tags=sw_curl
