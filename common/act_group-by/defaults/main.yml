@@ -1,4 +1,0 @@
----
-# file: defaults/main.yml
-
-plethorole_dist: {{ansible_distribution}}-{{ansible_distribution_version}}

@@ -1,0 +1,5 @@
+---
+# file: meta/main.yml
+
+dependencies:
+  - { role: plethorole/Ubuntu-12.04/sw_vim/distro }

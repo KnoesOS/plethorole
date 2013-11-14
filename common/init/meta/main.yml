@@ -1,0 +1,5 @@
+---
+# file: meta/main.yml
+
+dependencies:
+  - { role: plethorole/common/act_group-by }

@@ -1,5 +1,0 @@
----
-# file: meta/main.yml
-
-dependencies:
-  - { role: plethorole/{{ plethorole_dist }}/sw_vim/distro }

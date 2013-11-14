@@ -1,0 +1,4 @@
+---
+# file: defaults/main.yml
+
+plethorole_version: "0.1.0"
