@@ -2,4 +2,14 @@
 # file: meta/main.yml
 
 dependencies:
+  - { role: plethorole/Ubuntu-12.04/act_apt-purge }
+  - { role: plethorole/Ubuntu-12.04/act_apt-update }
+  - { role: plethorole/Ubuntu-12.04/act_apt-upgrade-dist }
+  - { role: plethorole/Ubuntu-12.04/sw_build-essential/distro }
+  - { role: plethorole/Ubuntu-12.04/sw_git/distro.client }
+  - { role: plethorole/Ubuntu-12.04/sw_rsync/distro.client }
   - { role: plethorole/Ubuntu-12.04/sw_vim/distro }
+  - { role: plethorole/Ubuntu-12.04/act_ipv6-disable }
+#  - { role: plethorole/Ubuntu-12.04/sw_lumberjack/distro.client }
+#  - { role: plethorole/Ubuntu-12.04/sw_sensu/distro.client }
+#  - { role: plethorole/Ubuntu-12.04/sw_ansible/dev-git.pull }

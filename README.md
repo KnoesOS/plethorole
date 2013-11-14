@@ -68,12 +68,17 @@ Glossary
 ------
 ```
 act = an action role
-common = applies to more than one context (e.g. distro, version, configuration)
+common = a role that applies to multiple contexts
 dev = a software role that uses packages from the developer
+dev-git = a software role that uses source from the developer's git repo
 dev-src = a software role that uses source from the developer
 distro = a software role that uses package(s) from the distro
+distro-git = a software role that uses source from the distro's git repo
 distro-src =  a software role that uses source package(s) from the distro
 meta = a role that calls other roles
-ppa = a software role that uses package(s) from personal package archive(s) (PPA)
 sw = a role for a software package or software suite
 ```
+
+Maxims
+------
+* "meta" roles should be recursively shallow to maintain easy debugging.
