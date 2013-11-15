@@ -1,0 +1,15 @@
+---
+# file: tasks/plays.yml
+
+- name: Install
+  tags: 
+    - install
+
+- name: Configure
+  tags:
+    - configure
+
+- name: Uninstall
+  tags:
+    - uninstall
+

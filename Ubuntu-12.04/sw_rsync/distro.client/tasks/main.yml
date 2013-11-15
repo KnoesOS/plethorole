@@ -1,4 +1,0 @@
----
-# file: tasks/main.yml
-
-- include: sw_rsync-client.yml tags=sw_rsync-client

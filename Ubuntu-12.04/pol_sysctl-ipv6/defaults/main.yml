@@ -1,4 +1,0 @@
----
-# file: defaults/main.yml
-
-sysctl_ipv6: Off

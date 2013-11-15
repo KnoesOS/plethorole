@@ -1,4 +1,0 @@
----
-# file: defaults/main.yml
-
-sw_zookeeper-server_CLIENT_PORT: "2181"

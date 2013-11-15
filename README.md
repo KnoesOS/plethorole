@@ -6,10 +6,35 @@ A stockpile of Ansible Roles for use in your Ansible Playbooks.
 
 Version
 -------
-0.1.3
+0.1.4-hybrid
 
 The Plethorole Project uses Semantic Versioning.
 
+Current experiment
+------------------
+```
+distro[-version]/archetype_object[-version]/[src_srctype].gig_gigtype/declarations tags=imperatives
+
+example:
+
+Ubuntu/12.04/ntp/distro/client/install/tasks/main.yml
+CentOS/6.4/openssh-6.4/src/server/configure/defaults/main.yml
+
+Archetypes:
+con = container
+img = machine image
+init = initalization
+inst = universal machine instance
+ipmi = intelligent platform management interface
+meta = combination role
+nic = network interface
+pol = policy
+sw = software
+tier = distributed application tier
+layer = distributed application privacy layer
+vol = volume
+
+```
 
 Status
 ------
@@ -69,7 +94,6 @@ Glossary
 ```
 act = an action role
 common = a role that applies to multiple contexts
-cron = a role that installs a cron job
 dev = a software role that uses packages from the developer
 dev-git = a software role that uses source from the developer's git repo
 dev-src = a software role that uses source from the developer

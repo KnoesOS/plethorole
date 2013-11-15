@@ -1,5 +1,0 @@
----
-# file: tasks/act_apt-upgrade-dist.yml
-
-- name: Upgrade all distribution packages
-  apt: upgrade=dist

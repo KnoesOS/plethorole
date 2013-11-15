@@ -1,4 +1,0 @@
----
-# file: defaults/main.yml
-
-sw_squid_FLAVOR: "aws_vpc_proxy_outbound"

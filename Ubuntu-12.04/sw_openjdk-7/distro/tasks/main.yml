@@ -1,4 +1,0 @@
----
-# file: tasks/main.yml
-
-- include: sw_openjdk-7.yml tags=openjdk-7

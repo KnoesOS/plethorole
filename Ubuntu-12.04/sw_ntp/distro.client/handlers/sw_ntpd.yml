@@ -1,5 +1,0 @@
----
-# file: handlers/sw_ntpd.yaml
-
-- name: Restart ntpd
-  service: name=ntp state=restarted

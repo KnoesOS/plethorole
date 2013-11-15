@@ -1,4 +1,0 @@
----
-# file: handlers/main.yml
-
-- include: sw_ntpd.yml

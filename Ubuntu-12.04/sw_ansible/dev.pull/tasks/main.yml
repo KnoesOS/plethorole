@@ -1,4 +1,0 @@
----
-# file: tasks/main.yml
-
-- include: sw_ansible-pull.yml tags=sw_ansible-pull
