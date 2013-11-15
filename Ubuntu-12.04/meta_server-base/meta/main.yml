@@ -15,7 +15,7 @@ dependencies:
   - { role: plethorole/Ubuntu-12.04/sw_rsync/distro.client }
   - { role: plethorole/Ubuntu-12.04/sw_vim/distro }
 
-  - { role: plethorole/Ubuntu-12.04/act_ipv6-disable }
+  - { role: plethorole/Ubuntu-12.04/act_sysctl-ipv6-disable }
 
   - { role: plethorole/Ubuntu-12.04/sw_ntp/distro.client }
 #  - { role: plethorole/Ubuntu-12.04/sw_lumberjack/ufw.distro }

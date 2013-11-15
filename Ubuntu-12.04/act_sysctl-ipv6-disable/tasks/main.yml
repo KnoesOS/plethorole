@@ -1,0 +1,4 @@
+---
+# file: tasks/main.yml
+
+- include: act_sysctl-ipv6-disable.yml tags=act_sysctl-ipv6-disable

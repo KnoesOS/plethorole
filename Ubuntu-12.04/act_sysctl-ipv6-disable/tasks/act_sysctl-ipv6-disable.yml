@@ -1,5 +1,5 @@
 ---
-# file: tasks/act_ipv6-disable.yml
+# file: tasks/act_sysctl-ipv6-disable.yml
 
 - name: Disable IPv6 in sysctl.conf
   sysctl: name={{ item }}
