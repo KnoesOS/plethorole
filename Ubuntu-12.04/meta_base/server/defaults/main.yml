@@ -3,12 +3,14 @@
 
 apt_purge_list:
   - iptables-persistent
-  - juju
   - lynx
   - lynx-cur
-  - shorewall
   - screen
+  - shorewall
   - telnetd
+  - wine
+  - xfce4
+  - xfce4-dgb
 
 ntp_server_list:
   - 0.ubuntu.pool.ntp.org

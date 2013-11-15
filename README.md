@@ -69,6 +69,7 @@ Glossary
 ```
 act = an action role
 common = a role that applies to multiple contexts
+cron = a role that installs a cron job
 dev = a software role that uses packages from the developer
 dev-git = a software role that uses source from the developer's git repo
 dev-src = a software role that uses source from the developer
