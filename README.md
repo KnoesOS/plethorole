@@ -6,7 +6,7 @@ A stockpile of Ansible Roles for use in your Ansible Playbooks.
 
 Version
 -------
-0.1.2
+0.1.3
 
 The Plethorole Project uses Semantic Versioning.
 
