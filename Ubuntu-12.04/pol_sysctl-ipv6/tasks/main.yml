@@ -1,0 +1,4 @@
+---
+# file: tasks/main.yml
+
+- include: pol_sysctl-ipv6.yml tags=pol_sysctl-ipv6

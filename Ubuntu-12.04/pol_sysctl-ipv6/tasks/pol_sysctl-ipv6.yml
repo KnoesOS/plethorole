@@ -1,7 +1,7 @@
 ---
-# file: tasks/act_sysctl-ipv6-disable.yml
+# file: tasks/pol_sysctl-ipv6.yml
 
-- name: Disable IPv6 in sysctl.conf
+- name: Apply IPV6 policy for sysctl
   sysctl: name={{ item }}
           value=1
           state=present

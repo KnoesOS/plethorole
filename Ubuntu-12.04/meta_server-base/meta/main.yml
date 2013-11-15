@@ -3,10 +3,10 @@
 
 dependencies:
 
+  - { role: plethorole/Ubuntu-12.04/pol_sysctl-ipv6 }
   - { role: plethorole/Ubuntu-12.04/act_apt-purge }
   - { role: plethorole/Ubuntu-12.04/act_apt-update }
   - { role: plethorole/Ubuntu-12.04/act_apt-upgrade-dist }
-
   - { role: plethorole/Ubuntu-12.04/sw_build-essential/distro }
   - { role: plethorole/Ubuntu-12.04/sw_curl/distro }
   - { role: plethorole/Ubuntu-12.04/sw_dos2unix/distro }
@@ -14,9 +14,6 @@ dependencies:
   - { role: plethorole/Ubuntu-12.04/sw_lsof/distro }
   - { role: plethorole/Ubuntu-12.04/sw_rsync/distro.client }
   - { role: plethorole/Ubuntu-12.04/sw_vim/distro }
-
-  - { role: plethorole/Ubuntu-12.04/act_sysctl-ipv6-disable }
-
   - { role: plethorole/Ubuntu-12.04/sw_ntp/distro.client }
 #  - { role: plethorole/Ubuntu-12.04/sw_lumberjack/ufw.distro }
 #  - { role: plethorole/Ubuntu-12.04/sw_lumberjack/distro.client }

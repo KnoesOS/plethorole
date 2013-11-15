@@ -76,6 +76,7 @@ distro = a software role that uses package(s) from the distro
 distro-git = a software role that uses source from the distro's git repo
 distro-src =  a software role that uses source package(s) from the distro
 meta = a role that calls other roles
+pol = role that sets a policy or otherwise enforces a desired configuration
 sw = a role for a software package or software suite
 ```
 

@@ -16,3 +16,5 @@ ntp_server_list:
   - 2.ubuntu.pool.ntp.org
   - 3.ubuntu.pool.ntp.org
   - ntp.ubuntu.com
+
+sysctl_ipv6: Off
