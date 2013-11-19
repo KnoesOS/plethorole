@@ -1,5 +1,0 @@
----
-# file: tasks/main.yml
-
-- include: plays.yml 
-           tags=ubuntu.sw_ntp.src_distro.gig_client

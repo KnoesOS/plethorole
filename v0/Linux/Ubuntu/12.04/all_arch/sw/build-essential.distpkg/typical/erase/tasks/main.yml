@@ -1,0 +1,8 @@
+---
+# file: tasks/main.yml
+
+- name: "erase: build-essential"
+  apt: pkg={{ item }} 
+       state=absent
+  with_items:
+    - build-essential

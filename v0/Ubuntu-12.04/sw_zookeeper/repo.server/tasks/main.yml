@@ -1,0 +1,4 @@
+---
+# file: tasks/main.yml
+
+- include: sw_zookeeper-server.yml tags=zookeeper-server

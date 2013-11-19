@@ -1,0 +1,10 @@
+---
+# file: tasks/sw_terminator.yml
+
+- name: Install packages for terminator
+  apt: pkg={{ item }} 
+       state=present
+  with_items:
+    - terminator
+  tags:
+    - packages

@@ -1,0 +1,4 @@
+---
+# file: defaults/main.yml
+
+sw_squid_FLAVOR: "stock"

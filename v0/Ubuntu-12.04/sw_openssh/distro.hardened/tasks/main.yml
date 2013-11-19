@@ -1,0 +1,4 @@
+---
+# file: tasks/main.yml
+
+- include: sw_openssh-server.yml tags=sw_openssh-server

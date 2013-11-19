@@ -1,0 +1,4 @@
+---
+# file: tasks/main.yml
+
+- include: sw_dos2unix.yml tags=sw_dos2unix

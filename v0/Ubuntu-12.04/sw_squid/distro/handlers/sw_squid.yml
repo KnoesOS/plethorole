@@ -1,0 +1,4 @@
+---
+# file: handlers/sw_squid.yaml
+- name: Restart squid
+  service: name=squid3 state=restarted

@@ -1,0 +1,6 @@
+---
+# file: tasks/act_apt-update.yml
+
+- name: Update package cache if it is stale
+  apt: update_cache=yes 
+       cache_valid_time={{ apt_cache_stale_seconds }}
