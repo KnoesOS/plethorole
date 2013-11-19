@@ -1,0 +1,8 @@
+---
+# file: tasks/main.yml
+
+- name: "erase: lsof"
+  apt: pkg={{ item }} 
+       state=absent
+  with_items:
+    - lsof

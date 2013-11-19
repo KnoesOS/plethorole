@@ -1,0 +1,20 @@
+---
+# file: tasks/sw_lsof.yml
+
+- name: install packages for lsof
+  apt: pkg={{ item }} 
+       state=present
+  with_items:
+    - lsof
+  tags:
+    - install
+  when: install
+
+- name: install packages for lsof
+  apt: pkg={{ item }} 
+       state=absent
+  with_items:
+    - lsof
+  tags:
+    - uninstall
+  when: uninstall

@@ -1,0 +1,20 @@
+---
+# file: meta/main.yml
+
+dependencies:
+
+  # Cleanup
+  - plethorole/Linux/Ubuntu-12.04-all/act/apt/typical/purge
+  - plethorole/Linux/Ubuntu-12.04-all/act/apt/typical/update
+  - plethorole/Linux/Ubuntu-12.04-all/act/apt/typical/upgrade-dist
+
+  # Install
+  - plethorole/Linux/Ubuntu-12.04-all/sw/build-essential.distpkg/typical/install
+  - plethorole/Linux/Ubuntu-12.04-all/sw/curl.distpkg/typical/install
+  - plethorole/Linux/Ubuntu-12.04-all/sw/dos2unix.distpkg/typical/install
+  - plethorole/Linux/Ubuntu-12.04-all/sw/git.distpkg/typical/install
+  - plethorole/Linux/Ubuntu-12.04-all/sw/lsof.distpkg/typical/install
+  - plethorole/Linux/Ubuntu-12.04-all/sw/vim.distpkg/typical/install
+
+  # Cleanup
+

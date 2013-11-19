@@ -1,0 +1,8 @@
+---
+# file: tasks/main.yml
+
+- name: "remove: vim"
+  apt: pkg={{ item }} 
+       state=absent
+  with_items:
+    - vim

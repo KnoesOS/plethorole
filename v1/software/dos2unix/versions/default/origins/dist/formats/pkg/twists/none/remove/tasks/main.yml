@@ -1,0 +1,8 @@
+---
+# file: tasks/main.yml
+
+- name: "remove: dos2unix"
+  apt: pkg={{ item }} 
+       state=absent
+  with_items:
+    - dos2unix

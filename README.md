@@ -6,7 +6,7 @@ A stockpile of Ansible Roles for use in your Ansible Playbooks.
 
 Version
 -------
-0.1.3
+0.1.2
 
 The Plethorole Project uses Semantic Versioning.
 
@@ -69,7 +69,6 @@ Glossary
 ```
 act = an action role
 common = a role that applies to multiple contexts
-cron = a role that installs a cron job
 dev = a software role that uses packages from the developer
 dev-git = a software role that uses source from the developer's git repo
 dev-src = a software role that uses source from the developer
@@ -77,7 +76,6 @@ distro = a software role that uses package(s) from the distro
 distro-git = a software role that uses source from the distro's git repo
 distro-src =  a software role that uses source package(s) from the distro
 meta = a role that calls other roles
-pol = role that sets a policy or otherwise enforces a desired configuration
 sw = a role for a software package or software suite
 ```
 
