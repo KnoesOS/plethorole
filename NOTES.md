@@ -15,14 +15,14 @@ v: Version
 twst: Twist
 
 
-### Resource Types
+### Resource Type Examples
 
 software
 meta
 meta-software
 
 
-### In Filesystem
+### In Filesystem Examples
 
 dyn_all/dist_all/v_all/arch_all/software_openssh/ori_src/v_latest/arch_def/twst_client/install
 

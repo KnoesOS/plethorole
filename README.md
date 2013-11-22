@@ -6,7 +6,7 @@ A diverse stockpile of reusable Ansible roles.
 
 Version
 -------
-0.1.4
+0.1.5
 
 The Plethorole Project uses Semantic Versioning.
 
@@ -69,8 +69,9 @@ Glossary
 ```
 common = a role that applies to multiple contexts
 meta = a role that calls other roles
+default = nobody home (see: Pink Floyd)
 ```
 
 Maxims
 ------
-* "meta" roles shall always be recursively shallow for easy debugging.
+* "meta" roles shall be recursively shallow.
