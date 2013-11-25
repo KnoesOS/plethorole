@@ -1,0 +1,34 @@
+---
+# file: meta/main.yml
+
+dependencies:
+
+# Cleanup
+
+  # Purge Package(s)
+  - plethorole/v1/dyn_debuntu/dist_all/v_all/arch_all/helper_apt/ori_def/v_def/arch_def/twst_def/purge
+
+  # Update Package Cache
+  - plethorole/v1/dyn_debuntu/dist_all/v_all/arch_all/helper_apt/ori_def/v_def/arch_def/twst_def/update
+
+  # Upgrade Distribution
+  - plethorole/v1/dyn_debuntu/dist_all/v_all/arch_all/helper_apt/ori_def/v_def/arch_def/twst_def/upgrade-dist
+
+
+# Install
+
+  # Utilities
+  - plethorole/v1/dyn_debuntu/dist_all/v_all/arch_all/software_vim/ori_dist/v_default/arch_def/twst_def/install
+#  - plethorole/v1/software/build-essential/versions/default/origins/dist/formats/pkg/twists/none/install
+#  - plethorole/v1/software/curl/versions/default/origins/dist/formats/pkg/twists/none/install
+#  - plethorole/v1/software/dos2unix/versions/default/origins/dist/formats/pkg/twists/none/install
+#  - plethorole/v1/software/git/versions/default/origins/dist/formats/pkg/twists/none/install
+#  - plethorole/v1/software/lsof/versions/default/origins/dist/formats/pkg/twists/none/install
+#  - plethorole/v1/software/vim/versions/default/origins/dist/formats/pkg/twists/none/install
+
+
+# Cleanup
+
+  # Clean
+#  - plethorole/v1/helpers/apt/versions/default/origins/wrale/formats/role/twists/none/clean
+
